@@ -1,0 +1,65 @@
+:root{
+    --main-color:#453921;
+    --second-color:#CEE000;
+    --accent-color:#000000;
+}
+*{
+    font-family: 'Exo', sans-serif;
+}
+h1{
+    font-size: 60px;
+    font-style: italic;
+    font-weight: 600;
+}
+h5{
+    font-weight: 600;
+}
+.bg-main{
+    background-color: var(--main-color);
+}
+.bg-second{
+    background-color: var(--second-color);
+}
+.bg-accent{
+    background-color: var(--accent-color);
+}
+.text-second{
+    color: var(--second-color);
+}
+.text-main{
+    color: var(--main-color);
+}
+.nav{
+    border-radius: 50px;
+}
+/* .search{
+    display: block;
+    float: right;
+} */
+.search:hover, .info:hover, .pag:hover{
+    background-color: var(--second-color);
+    color: var(--main-color);
+}
+  .search-results {
+    position: relative;
+    border-radius: 8px
+  }
+  .img-card{
+    width: 100%!important;
+    height: 100% !important;
+    object-fit: cover;
+  }
+  .subtitle{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+  }
+li{
+    width: 500px;
+}
+ul{
+    max-height:300px;/* you can change as you need it */
+    overflow:scroll;/* to get scroll */
+ }
